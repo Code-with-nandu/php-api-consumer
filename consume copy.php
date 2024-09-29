@@ -9,11 +9,8 @@ function fetchEmployees($url) {
     return json_decode($response, true);
 }
 
-// Determine the environment (local or live)
-$isLocal = true; // Set to false when deploying to live
-
-// Set the API URL based on the environment
-$apiUrl = $isLocal ? 'http://localhost/1_api/php_api/employee' : 'https://krishnendudalui.in.net/PHI_API_PROVIDER/employee';
+// Replace with the actual URL of your API project
+$apiUrl = 'http://localhost/1_api/php_api/employee'; // Adjust the path accordingly
 
 // Fetch all employees
 $employees = fetchEmployees($apiUrl);
