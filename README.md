@@ -36,7 +36,15 @@ Watch Live Visit our website : [https://krishnendudalui.in.net/php-api-consumer/
    cd php_api_provider
    
 
-## image 
-![Alt text](image.png)
-![Alt text](image.png)
+## image for Eployee View :
+![Alt text](image/image_1.png)
 
+## image for Add Emplyee View :
+![Alt text](image/image_3.png)
+
+
+## image for Add JSON View :
+![Alt text](image/image_2.png)
+
+## image for Add Error View :
+![Alt text](image/image.png)
