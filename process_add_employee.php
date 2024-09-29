@@ -4,7 +4,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $profilePic = $_POST["profilePic"];
 
-    $apiUrl = 'http://localhost/1_api/php_api/employee'; // Adjust the path accordingly
+// Determine the environment (local or live)
+$isLocal = false; // Set to false when deploying to live
+
+// Set the API URL based on the environment
+$apiUrl = $isLocal ? 'http://localhost/1_api/php_api/employee' : 'https://krishnendudalui.in.net/PHI_API_PROVIDER/employee';
+
+
 
     // Prepare data to be sent
     $data = json_encode([
