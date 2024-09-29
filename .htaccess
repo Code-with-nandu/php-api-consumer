@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^consume/?$ consume.php [NC,L]
+RewriteRule ^consume/([0-9]+)/?$ consume.php?id=$1 [NC,L]
+
+Options -Indexes
