@@ -9,8 +9,11 @@ function fetchEmployees($url) {
     return json_decode($response, true);
 }
 
-// Replace with the actual URL of your API project
-$apiUrl = 'https://krishnendudalui.in.net/PHI_API_PROVIDER/employee'; // Adjust the path accordingly
+// Determine the environment (local or live)
+$isLocal = true; // Set to false when deploying to live
+
+// Set the API URL based on the environment
+$apiUrl = $isLocal ? 'http://localhost/1_api/php_api/employee' : 'https://krishnendudalui.in.net/PHI_API_PROVIDER/employee';
 
 // Fetch all employees
 $employees = fetchEmployees($apiUrl);
