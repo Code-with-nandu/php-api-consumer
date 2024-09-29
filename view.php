@@ -11,8 +11,8 @@
         <h1>Employee List (REST API PHP Project)</h1>
 
     <a href="https://docs.google.com/document/d/1ApVI0Lue2hgxE6yhT7yt3vaWxici0VCh/edit" class="btn" target="_blank" >Step By Step Guide </a>
-    <a href="https://github.com/Code-with-nandu/PHI_API_PROVIDER" class="btn" target="_blank" > API Provider in GITHUB  </a>
-    <a href="https://github.com/Code-with-nandu/PHI_API_PROVIDER"class="btn"target="_blank">  API consumer Link GITHUB  </a>
+    <a href="https://github.com/Code-with-nandu/PHI_API_PROVIDER" class="btn" target="_blank" > API Provider code GITHUB  </a>
+    <a href="https://github.com/Code-with-nandu/php-api-consumer"class="btn"target="_blank">  API consumer code GITHUB  </a>
     <a href="https://krishnendudalui.in.net/PHI_API_PROVIDER/employee" class="btn"target="_blank">JSON View </a>
     <br><br>
      
